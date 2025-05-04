@@ -46,12 +46,12 @@ class NetworkDataExtract(): # it will be responsible for our entire ETL pipeline
             self.database = database 
             self.collection = collection 
             self.records = records 
-            self.mongo_client = pymongo.MongoClient(MONGO_DB_URL) 
-            self.database = self.mongo_client[self.database] 
+            self.mongo_client = pymongo.MongoClient(MONGO_DB_URL) # Connects to MongoDB using the connection string MONGO_DB_URL.
+            self.database = self.mongo_client[self.database] # Accesses the specific database from the MongoDB client.
 
-            self.collection = self.database[self.collection]
+            self.collection = self.database[self.collection] # Accesses the specific collection
 
-            self.collection.insert_many(self.records)
+            self.collection.insert_many(self.records) # Inserts multiple records (dictionaries) at once into the collection.
             return (len(self.records))
         
         except Exception as e:
