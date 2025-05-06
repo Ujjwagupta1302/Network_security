@@ -1,7 +1,0 @@
-[ 2025-05-06 15:21:16,314 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[ 2025-05-06 15:21:16,321 ] 107 dagshub - INFO - Accessing as Ujjwagupta1302
-[ 2025-05-06 15:21:17,234 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Ujjwagupta1302/Network_security "HTTP/1.1 200 OK"
-[ 2025-05-06 15:21:17,864 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[ 2025-05-06 15:21:17,868 ] 107 dagshub - INFO - Initialized MLflow to track repo "Ujjwagupta1302/Network_security"
-[ 2025-05-06 15:21:17,869 ] 107 dagshub - INFO - Repository Ujjwagupta1302/Network_security initialized!
-[ 2025-05-06 15:21:17,869 ] 17 root - INFO - Initiate the data ingestion
