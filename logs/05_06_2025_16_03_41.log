@@ -1,0 +1,23 @@
+[ 2025-05-06 16:03:46,614 ] 17 root - INFO - Initiate the data ingestion
+[ 2025-05-06 16:03:56,626 ] 65 root - INFO - Performed train test split on the dataframe
+[ 2025-05-06 16:03:56,626 ] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-05-06 16:03:56,626 ] 75 root - INFO - Exporting train and test file path.
+[ 2025-05-06 16:03:56,673 ] 84 root - INFO - Exported train and test file path.
+[ 2025-05-06 16:03:56,673 ] 19 root - INFO - Data Initiation Completed
+[ 2025-05-06 16:03:56,680 ] 23 root - INFO - Initiate the data Validation
+[ 2025-05-06 16:03:56,732 ] 34 root - INFO - Required number of columns2
+[ 2025-05-06 16:03:56,732 ] 34 root - INFO - Required number of columns2
+[ 2025-05-06 16:03:56,843 ] 25 root - INFO - data Validation Completed
+[ 2025-05-06 16:03:56,844 ] 28 root - INFO - data Transformation started
+[ 2025-05-06 16:03:56,844 ] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[ 2025-05-06 16:03:56,844 ] 65 root - INFO - Starting data transformation
+[ 2025-05-06 16:03:56,865 ] 48 root - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[ 2025-05-06 16:03:56,865 ] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-05-06 16:03:56,877 ] 45 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-05-06 16:03:56,879 ] 49 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-05-06 16:03:56,880 ] 45 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-05-06 16:03:56,881 ] 49 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-05-06 16:03:56,882 ] 45 root - INFO - Entered the save_object method of MainUtils class
+[ 2025-05-06 16:03:56,884 ] 49 root - INFO - Exited the save_object method of MainUtils class
+[ 2025-05-06 16:03:56,886 ] 32 root - INFO - data Transformation completed
+[ 2025-05-06 16:03:56,886 ] 33 root - INFO - Model Training stared
