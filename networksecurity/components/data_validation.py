@@ -38,7 +38,7 @@ class DataValidation:
         except Exception as e:
             NetworkSecurityException(e,sys) 
 
-    def validate_numeric_columns(self, dataframe:pd.DataFrame)-> bool:
+    def validate_numeric_columns(self,dataframe:pd.DataFrame)-> bool:
         try:
              schema_numeric_columns = len(self._schema_config["numerical_columns"])
              numeric_columns = len(dataframe.select_dtypes(include=['number']).columns.tolist())
